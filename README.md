@@ -47,6 +47,9 @@ El desarrollo fue realizado en equipo de dos integrantes, con responsabilidades 
 
 - [Alcance funcional](docs/alcance-funcional.md)
 - [Análisis y modelado](docs/analisis-y-modelado.md)
+- [Diagramas y pantallas](docs/diagramas-y-pantallas.md)
+- [Diagrama de contexto](diagrams/contexto-sistema.svg)
+- [Actores y funcionalidades](diagrams/actores-funcionalidades.svg)
 - [Notas del portfolio y privacidad](docs/portfolio-notes.md)
 
 ## Metodología de trabajo
