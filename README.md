@@ -43,6 +43,16 @@ Mi principal participación estuvo orientada al análisis funcional y al diseño
 
 El desarrollo fue realizado en equipo de dos integrantes, con responsabilidades compartidas y diferentes niveles de participación en las tareas de análisis y programación.
 
+## Diagramas del proyecto
+
+### Diagrama de contexto
+
+![Diagrama de contexto](diagrams/contexto-sistema.svg)
+
+### Actores y funcionalidades
+
+![Resumen de actores y funcionalidades](diagrams/actores-funcionalidades.svg)
+
 ## Documentación del proyecto
 
 - [Alcance funcional](docs/alcance-funcional.md)
