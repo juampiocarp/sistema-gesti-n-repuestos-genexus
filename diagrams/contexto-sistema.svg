@@ -3,28 +3,28 @@
 <rect width="1100" height="720" rx="24" fill="#f8fafc"/>
 <text x="550" y="58" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#172554">Diagrama de contexto</text>
 <g font-family="Arial">
-<rect x="65" y="280" width="190" height="110" rx="18" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
-<text x="160" y="343" text-anchor="middle" font-size="24" fill="#0f172a">Proveedores</text>
+<rect x="65" y="300" width="190" height="110" rx="18" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+<text x="160" y="363" text-anchor="middle" font-size="24" fill="#0f172a">Proveedores</text>
 <g fill="#dbeafe" stroke="#2563eb" stroke-width="2">
-<ellipse cx="545" cy="160" rx="175" ry="42"/>
-<ellipse cx="865" cy="160" rx="165" ry="42"/>
-<ellipse cx="545" cy="340" rx="175" ry="42"/>
-<ellipse cx="545" cy="520" rx="175" ry="42"/>
-<ellipse cx="865" cy="520" rx="185" ry="42"/>
+<ellipse cx="500" cy="165" rx="150" ry="42"/>
+<ellipse cx="880" cy="165" rx="150" ry="42"/>
+<ellipse cx="500" cy="350" rx="165" ry="42"/>
+<ellipse cx="500" cy="535" rx="150" ry="42"/>
+<ellipse cx="880" cy="535" rx="180" ry="42"/>
 </g>
 <g font-size="20" fill="#1e3a8a" text-anchor="middle">
-<text x="545" y="167">Registrar Entrega</text>
-<text x="865" y="167">Actualizar Stock</text>
-<text x="545" y="347">Entregar Recibo de Pago</text>
-<text x="545" y="527">Generar Informes</text>
-<text x="865" y="527">Cuenta Corriente de Proveedores</text>
+<text x="500" y="172">Registrar Entrega</text>
+<text x="880" y="172">Actualizar Stock</text>
+<text x="500" y="357">Entregar Recibo de Pago</text>
+<text x="500" y="542">Generar Informes</text>
+<text x="880" y="542">Cuenta Corriente de Proveedores</text>
 </g>
 <g stroke="#64748b" stroke-width="3" fill="none" marker-end="url(#arr)">
-<path d="M255 305 H350 V160 H370"/>
-<path d="M255 330 H355 V340 H370"/>
-<path d="M255 355 H350 V520 H370"/>
-<path d="M720 160 H700"/>
-<path d="M720 520 H680"/>
+<path d="M255 325 H330 V165 H350"/>
+<path d="M255 355 H335 V350 H335"/>
+<path d="M255 385 H330 V535 H350"/>
+<path d="M650 165 H730"/>
+<path d="M650 535 H700"/>
 </g>
 <text x="550" y="650" text-anchor="middle" font-size="15" fill="#64748b">Representación del diagrama de contexto de la página 37 del trabajo final.</text>
 </g>
