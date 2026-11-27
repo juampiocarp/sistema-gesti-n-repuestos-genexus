@@ -4,17 +4,17 @@
 
 Este documento resume el **modelo lógico de datos descrito en el trabajo final** (páginas 42 a 51). No representa una extracción de la base de datos física ni una inspección del proyecto GeneXus.
 
-El trabajo documenta tablas, atributos y marcas de clave primaria (PK) y clave foránea (FK). El diagrama resume las relaciones que se pueden respaldar directamente con esas referencias. Las cardinalidades 1:N se representan a partir de la estructura PK/FK; deben leerse como interpretación del modelo relacional documentado.
+El trabajo documenta tablas, atributos y marcas de clave primaria (PK) y clave foránea (FK). El diagrama resume las relaciones que se pueden respaldar directamente con esas referencias. Las cardinalidades 1:N se representan como una interpretación del modelo relacional; el documento fuente no define explícitamente las cantidades mínima y máxima de registros relacionados.
 
 ## Diagrama entidad-relación
 
-- [Abrir fuente Mermaid](../diagrams/modelo-entidad-relacion.mmd)
+El diagrama siguiente es una **reconstrucción lógica para el portfolio** basada en las tablas y referencias PK/FK descritas en el trabajo final. No es una exportación original de GeneXus ni un diagrama entidad-relación original del equipo.
 
 ```mermaid
 erDiagram
     CLIENTES ||--o{ VENTAS : "ClienteID"
     USUARIOS ||--o{ VENTAS : "UsuarioID"
-    VENTAS ||--|{ DETALLE_VENTA : "VentaID"
+    VENTAS ||--o{ DETALLE_VENTA : "VentaID"
     PRODUCTOS ||--o{ DETALLE_VENTA : "ProductoID"
 
     PROVEEDORES ||--o{ PRODUCTOS : "ProveedorID"
@@ -23,7 +23,7 @@ erDiagram
 
     USUARIOS ||--o{ COMPRAS : "UsuarioID"
     PROVEEDORES ||--o{ COMPRAS : "ProveedorID"
-    COMPRAS ||--|{ DETALLE_COMPRAS : "CompraID"
+    COMPRAS ||--o{ DETALLE_COMPRAS : "CompraID"
     PRODUCTOS ||--o{ DETALLE_COMPRAS : "ProductoID"
 
     CLIENTES {
@@ -55,14 +55,14 @@ erDiagram
         ID VentaID FK
         ID ProductoID FK
         numeric Cantidad
-        numeric PrecioTotalVenta
+        sin_especificar PrecioTotalVenta
     }
     PRODUCTOS {
         ID ProductoID PK
         varchar ProductoNombre
         ID ProveedorID FK
         ID CategoriaID FK
-        numeric Stock
+        sin_especificar Stock
         numeric Precio
     }
     CATEGORIAS {
@@ -71,7 +71,7 @@ erDiagram
         varchar Descripcion
     }
     PROVEEDORES {
-        ID ProveedorID PK
+        sin_especificar ProveedorID PK
         varchar ProveedorNombre
         varchar Direccion
         numeric Telefono
@@ -102,6 +102,8 @@ erDiagram
         varchar DescripcionDescuento
     }
 ```
+
+- [Abrir fuente Mermaid editable](../diagrams/modelo-entidad-relacion.mmd)
 
 ## Entidades documentadas
 
@@ -168,7 +170,7 @@ Los nombres se mantienen cercanos a los que aparecen en las tablas del documento
 - Descripción (VarChar(700), NotNull).
 
 ### Proveedores
-- ProveedorID (PK, ID).
+- ProveedorID (PK; el tipo de dato no queda indicado claramente en la tabla).
 - ProveedorNombre (VarChar(70), NotNull).
 - Direccion (VarChar(70), NotNull).
 - Telefono (Numeric(15.0), NotNull).
@@ -208,6 +210,8 @@ Los nombres se mantienen cercanos a los que aparecen en las tablas del documento
 - Una compra referencia un usuario y un proveedor.
 - Cada detalle de compra referencia una compra y un producto.
 
+Las relaciones se representan como 1:N a nivel lógico. El mínimo de detalles por venta o compra no queda establecido de manera explícita en las tablas originales.
+
 ## Observaciones de calidad de datos del documento
 
 Durante la transcripción se identificaron algunos puntos que conviene validar con el proyecto GeneXus original antes de afirmar que son el esquema implementado:
@@ -215,8 +219,9 @@ Durante la transcripción se identificaron algunos puntos que conviene validar c
 1. En Clientes, el campo Telefono aparece en la continuación de la tabla, pero su descripción menciona al proveedor.
 2. En Ventas, el tipo de FechaDeVenta figura como “DataTime”, mientras que en Compras aparece “DateTime”.
 3. PrecioTotalVenta no presenta un tipo de dato explícito en la tabla de Detalle de Venta.
-4. La tabla Descuentos no deja claramente identificada una PK ni su relación con Productos.
-5. En Compras, el nombre UsuarioID aparece con una errata tipográfica en una de las páginas.
+4. El tipo de dato de ProveedorID no aparece claramente indicado en la tabla Proveedores.
+5. La tabla Descuentos no deja claramente identificada una PK ni su relación con Productos.
+6. En Compras, el nombre UsuarioID aparece con una errata tipográfica en una de las páginas.
 
 Estas observaciones se conservan deliberadamente para no corregir ni completar el diseño original por suposición.
 
