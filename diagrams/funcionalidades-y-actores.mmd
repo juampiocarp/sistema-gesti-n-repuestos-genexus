@@ -1,0 +1,46 @@
+flowchart TB
+    subgraph Actores
+      V[Vendedor]
+      D[Dueño]
+      P[Proveedor]
+    end
+
+    subgraph Funcionalidades
+      F1[Actualizar catálogo de proveedores]
+      F2[Actualizar clientes]
+      F3[Agregar imagen de producto al stock]
+      F4[Registrar pedido a proveedor]
+      F5[Registrar ingreso de mercadería]
+      F6[Controlar stock]
+      F7[Buscar productos por código, nombre o palabra clave]
+      F8[Registrar pedidos de clientes]
+      F9[Registrar ventas]
+      F10[Registrar entrada y salida de repuestos]
+      F11[Registrar pago a proveedores]
+      F12[Consultar ventas en dinero]
+      F13[Consultar ventas por producto]
+      F14[Registrar entrega]
+      F15[Actualizar stock por entrega]
+      F16[Entregar recibo de pago]
+      F17[Generar informes]
+      F18[Consultar cuenta corriente de proveedores]
+    end
+
+    V --> F1
+    V --> F2
+    V --> F3
+    V --> F4
+    D --> F5
+    D --> F6
+    V --> F7
+    V --> F8
+    V --> F9
+    D --> F10
+    D --> F11
+    D --> F12
+    D --> F13
+    P --> F14
+    F14 --> F15
+    P --> F16
+    P --> F17
+    F17 --> F18
