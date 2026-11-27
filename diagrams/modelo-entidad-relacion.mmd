@@ -1,0 +1,90 @@
+erDiagram
+    CLIENTES ||--o{ VENTAS : "ClienteID"
+    USUARIOS ||--o{ VENTAS : "UsuarioID"
+    VENTAS ||--|{ DETALLE_VENTA : "VentaID"
+    PRODUCTOS ||--o{ DETALLE_VENTA : "ProductoID"
+
+    PROVEEDORES ||--o{ PRODUCTOS : "ProveedorID"
+    CATEGORIAS ||--o{ PRODUCTOS : "CategoriaID"
+    PRODUCTOS ||--o{ IMAGEN_PRODUCTO : "ProductoID"
+
+    USUARIOS ||--o{ COMPRAS : "UsuarioID"
+    PROVEEDORES ||--o{ COMPRAS : "ProveedorID"
+    COMPRAS ||--|{ DETALLE_COMPRAS : "CompraID"
+    PRODUCTOS ||--o{ DETALLE_COMPRAS : "ProductoID"
+
+    CLIENTES {
+        ID ClienteID PK
+        varchar ClienteNombre
+        varchar Direccion
+        varchar Cuit
+        numeric CuentaCorriente
+        numeric Telefono "atributo visible; descripción ambigua en documento"
+    }
+    USUARIOS {
+        ID UsuarioID PK
+        varchar UsuarioNombre
+        numeric Telefono
+        varchar Email
+        varchar Tipo
+    }
+    VENTAS {
+        ID VentaID PK
+        ID UsuarioID FK
+        ID ClienteID FK
+        datetime FechaDeVenta
+        combo MetodoDePagoVentas
+        combo FormaPago
+        numeric CostodeVenta
+    }
+    DETALLE_VENTA {
+        ID DetalleID PK
+        ID VentaID FK
+        ID ProductoID FK
+        numeric Cantidad
+        numeric PrecioTotalVenta
+    }
+    PRODUCTOS {
+        ID ProductoID PK
+        varchar ProductoNombre
+        ID ProveedorID FK
+        ID CategoriaID FK
+        numeric Stock
+        numeric Precio
+    }
+    CATEGORIAS {
+        ID CategoriaID PK
+        varchar CategoriaNombre
+        varchar Descripcion
+    }
+    PROVEEDORES {
+        ID ProveedorID PK
+        varchar ProveedorNombre
+        varchar Direccion
+        numeric Telefono
+        varchar Email
+    }
+    IMAGEN_PRODUCTO {
+        ID ImagenID PK
+        ID ProductoID FK
+        varchar RutaImagen
+    }
+    COMPRAS {
+        ID CompraID PK
+        ID UsuarioID FK
+        ID ProveedorID FK
+        datetime FechaCompra
+        combo MetodoDePagoCompras
+    }
+    DETALLE_COMPRAS {
+        ID DetalleCompraID PK
+        ID CompraID FK
+        ID ProductoID FK
+        numeric Cantidad
+        numeric PrecioUnitario
+    }
+    DESCUENTOS {
+        numeric CodigodeDescuento
+        varchar Nombrededescuento
+        varchar DescripcionDescuento
+    }
