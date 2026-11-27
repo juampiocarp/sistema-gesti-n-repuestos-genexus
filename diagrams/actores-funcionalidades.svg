@@ -1,29 +1,32 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
-<rect width="1200" height="920" rx="24" fill="#f8fafc"/>
-<text x="600" y="58" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#172554">Actores y funcionalidades</text>
-<text x="600" y="92" text-anchor="middle" font-family="Arial" font-size="16" fill="#64748b">Resumen de los diagramas funcionales del trabajo final (págs. 37–40)</text>
-<g font-family="Arial">
-<rect x="65" y="140" width="1070" height="215" rx="20" fill="#fff" stroke="#93c5fd" stroke-width="2"/>
-<rect x="65" y="140" width="250" height="215" rx="20" fill="#dbeafe"/>
-<text x="190" y="245" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a8a">Vendedor</text>
-<text x="350" y="185" font-size="19" fill="#0f172a">1. Actualizar catálogo de proveedores</text>
-<text x="350" y="220" font-size="19" fill="#0f172a">2. Actualizar clientes</text>
-<text x="350" y="255" font-size="19" fill="#0f172a">3. Agregar imagen del producto al stock</text>
-<text x="350" y="290" font-size="19" fill="#0f172a">4. Registrar pedido a proveedor</text>
-<text x="350" y="325" font-size="19" fill="#0f172a">7–9. Buscar productos, registrar pedidos de clientes y ventas</text>
-<rect x="65" y="385" width="1070" height="250" rx="20" fill="#fff" stroke="#a5b4fc" stroke-width="2"/>
-<rect x="65" y="385" width="250" height="250" rx="20" fill="#e0e7ff"/>
-<text x="190" y="520" text-anchor="middle" font-size="26" font-weight="700" fill="#3730a3">Dueño</text>
-<text x="350" y="435" font-size="19" fill="#0f172a">5. Registrar ingreso de mercadería</text>
-<text x="350" y="475" font-size="19" fill="#0f172a">6. Controlar stock</text>
-<text x="350" y="515" font-size="19" fill="#0f172a">10. Registrar entrada/salida de repuestos</text>
-<text x="350" y="555" font-size="19" fill="#0f172a">11. Registrar pago a proveedores</text>
-<text x="350" y="595" font-size="19" fill="#0f172a">12–13. Consultar ventas en dinero y por producto</text>
-<rect x="65" y="665" width="1070" height="175" rx="20" fill="#fff" stroke="#86efac" stroke-width="2"/>
-<rect x="65" y="665" width="250" height="175" rx="20" fill="#dcfce7"/>
-<text x="190" y="760" text-anchor="middle" font-size="26" font-weight="700" fill="#166534">Proveedor</text>
-<text x="350" y="715" font-size="19" fill="#0f172a">Registrar entrega; el sistema actualiza el stock.</text>
-<text x="350" y="755" font-size="19" fill="#0f172a">Entregar recibo de pago.</text>
-<text x="350" y="795" font-size="19" fill="#0f172a">Generar informes y consultar cuenta corriente de proveedores.</text>
-<text x="600" y="885" text-anchor="middle" font-size="14" fill="#64748b">Resumen visual transcripto de los diagramas originales; no agrega funcionalidades.</text>
-</g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="1120" viewBox="0 0 1400 1120">
+<rect width="1400" height="1120" rx="24" fill="#f8fafc"/>
+<text x="700" y="58" text-anchor="middle" font-family="Arial" font-size="32" font-weight="700" fill="#172554">Actores y funcionalidades documentadas</text>
+<text x="700" y="92" text-anchor="middle" font-family="Arial" font-size="17" fill="#64748b">Resumen de los casos de uso de las páginas 38 a 41 del trabajo final</text>
+<rect x="55" y="135" width="1290" height="385" rx="22" fill="#fff" stroke="#93c5fd" stroke-width="2"/>
+<rect x="55" y="135" width="260" height="385" rx="22" fill="#dbeafe"/>
+<text x="185" y="330" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#1e3a8a">Vendedor</text>
+<g font-family="Arial" font-size="19" fill="#0f172a">
+<text x="360" y="190">1. Actualizar catálogo de proveedores</text>
+<text x="360" y="232">2. Actualizar clientes</text>
+<text x="360" y="274">3. Agregar imagen del producto al stock</text>
+<text x="360" y="316">4. Registrar pedido a proveedor</text>
+<text x="360" y="358">7. Buscar productos por código, nombre o palabra clave</text>
+<text x="360" y="400">8. Registrar pedidos de clientes</text>
+<text x="360" y="442">9. Registrar ventas</text>
+</g>
+<rect x="55" y="550" width="1290" height="490" rx="22" fill="#fff" stroke="#a5b4fc" stroke-width="2"/>
+<rect x="55" y="550" width="260" height="490" rx="22" fill="#e0e7ff"/>
+<text x="185" y="800" text-anchor="middle" font-family="Arial" font-size="29" font-weight="700" fill="#3730a3">Dueño</text>
+<g font-family="Arial" font-size="19" fill="#0f172a">
+<text x="360" y="610">5. Registrar ingreso de mercadería</text>
+<text x="360" y="654">6. Controlar stock</text>
+<text x="360" y="698">10. Registrar entrada/salida de repuestos</text>
+<text x="360" y="742">11. Registrar pago a proveedores</text>
+<text x="360" y="786">12. Controlar ventas en dinero</text>
+<text x="360" y="830">13. Controlar ventas de mercaderías</text>
+<text x="360" y="874">14. Controlar compras</text>
+<text x="360" y="918">15. Generar informes: cuenta corriente de clientes y proveedores,</text>
+<text x="395" y="950">listado de cajas y productos actualizados</text>
+</g>
+<text x="700" y="1090" text-anchor="middle" font-family="Arial" font-size="14" fill="#64748b">Transcripción visual resumida; consultar el archivo fuente y el trabajo académico para el detalle completo.</text>
+</svg>
