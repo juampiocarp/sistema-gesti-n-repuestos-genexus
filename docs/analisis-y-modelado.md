@@ -38,3 +38,12 @@ La documentación original describe atributos como identificadores, nombres, dat
 ## Consideraciones
 
 La documentación consultada contiene especificaciones tabulares del modelo de datos. Por eso, esta página describe la estructura sin presentar un diagrama entidad-relación reconstruido como si fuera una imagen original del proyecto.
+
+
+## Diagrama de actores y funcionalidades
+
+Se agregó una representación editable en Mermaid basada en los diagramas funcionales de las páginas 37 a 40 del trabajo final:
+
+- [Ver archivo Mermaid](../diagrams/funcionalidades-y-actores.mmd)
+
+La representación resume los actores y las funciones que aparecen en el documento académico. No reemplaza los diagramas originales ni agrega funcionalidades nuevas.
