@@ -1,0 +1,6 @@
+flowchart LR
+    Proveedor[Proveedor] --> Entrega((Registrar Entrega))
+    Entrega -. "<<include>>" .-> Stock((Actualizar Stock))
+    Proveedor --> Recibo((Entregar Recibo de Pago))
+    Proveedor --> Informes((Generar Informes))
+    Informes --> Cuenta((Cuenta Corriente de Proveedores))
