@@ -1,25 +1,31 @@
-# Diagramas del sistema
+# Diagramas y pantallas del sistema
 
-Esta carpeta reúne representaciones editables de los diagramas funcionales incluidos en el trabajo final.
+Esta sección reúne representaciones visuales elaboradas a partir del trabajo final y su manual de usuario.
 
 ## Diagrama de contexto
 
-El diagrama original de contexto (página 37 del trabajo) representa al actor **Proveedor** y las siguientes interacciones:
+El diagrama de la página 37 identifica al actor **Proveedores** y las interacciones:
 
 - Registrar entrega.
-- Actualizar stock, como comportamiento incluido en el registro de entrega.
+- Actualizar stock como comportamiento incluido en el registro de entrega.
 - Entregar recibo de pago.
 - Generar informes.
-- Consultar la cuenta corriente de proveedores.
+- Cuenta corriente de proveedores.
 
-La versión editable está en [diagrama-contexto.mmd](../diagrams/diagrama-contexto.mmd).
+- [Ver diagrama de contexto (SVG)](../diagrams/contexto-sistema.svg)
+- [Ver fuente editable Mermaid](../diagrams/diagrama-contexto.mmd)
 
 ## Actores y funcionalidades
 
-El archivo [funcionalidades-y-actores.mmd](../diagrams/funcionalidades-y-actores.mmd) resume las interacciones documentadas en las páginas siguientes del trabajo final.
+Las páginas 38 a 40 documentan funciones asociadas a los actores Vendedor y Dueño, además de las interacciones del proveedor de la página 37.
 
-## Capturas de interfaz
+- [Ver resumen visual de actores y funcionalidades (SVG)](../diagrams/actores-funcionalidades.svg)
+- [Ver fuente editable Mermaid](../diagrams/funcionalidades-y-actores.mmd)
 
-El manual de usuario contiene pantallas de inicio de sesión, registro de compras y registro de ventas. Se incorporarán como imágenes individuales después de una revisión final de privacidad y legibilidad.
+## Interfaces documentadas
 
-> Las representaciones editables se transcribieron a partir de los diagramas del trabajo académico. No son exportaciones originales de GeneXus ni reemplazan el documento fuente.
+El manual de usuario incluye capturas de pantallas para el inicio de sesión, compras y ventas. Las imágenes originales del manual aún no se incorporaron a este repositorio; se publicarán cuando estén preparadas como archivos independientes y revisadas para evitar datos sensibles.
+
+## Nota sobre el material
+
+Los SVG son representaciones visuales transcritas para facilitar la lectura en el portfolio. No son exportaciones originales de GeneXus ni reemplazan los diagramas del documento académico.
