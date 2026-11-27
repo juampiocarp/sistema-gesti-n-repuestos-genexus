@@ -24,8 +24,15 @@ Las páginas 38 a 40 documentan funciones asociadas a los actores Vendedor y Due
 
 ## Interfaces documentadas
 
-El manual de usuario incluye capturas de pantallas para el inicio de sesión, compras y ventas. Las imágenes originales del manual aún no se incorporaron a este repositorio; se publicarán cuando estén preparadas como archivos independientes y revisadas para evitar datos sensibles.
+Las siguientes capturas se extrajeron del manual de usuario:
+
+- [Inicio de sesión](../screenshots/01-login.png)
+- [Registro de compras](../screenshots/02-registro-compra.png)
+- [Historial de ventas](../screenshots/03-historial-ventas.png)
+- [Registro de ventas](../screenshots/04-registro-venta.png)
+
+También se pueden consultar todas juntas en el [README de capturas](../screenshots/README.md).
 
 ## Nota sobre el material
 
-Los SVG son representaciones visuales transcritas para facilitar la lectura en el portfolio. No son exportaciones originales de GeneXus ni reemplazan los diagramas del documento académico.
+Los SVG son representaciones visuales transcritas para facilitar la lectura en el portfolio. No son exportaciones originales de GeneXus ni reemplazan los diagramas del documento académico. Las capturas de interfaz provienen del manual incluido en el trabajo final.
