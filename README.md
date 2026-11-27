@@ -80,6 +80,7 @@ Las siguientes imágenes provienen del manual de usuario del proyecto académico
 ## Documentación del proyecto
 
 - [Alcance funcional](docs/alcance-funcional.md)
+- [Casos de uso e interacciones](docs/casos-de-uso.md)
 - [Análisis y modelado](docs/analisis-y-modelado.md)
 - [Modelo de datos y diagrama entidad-relación](docs/modelo-de-datos.md)
 - [Diagramas y pantallas](docs/diagramas-y-pantallas.md)
