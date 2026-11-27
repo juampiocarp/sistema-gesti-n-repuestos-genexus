@@ -80,7 +80,7 @@ Los enunciados se agrupan y numeran para facilitar su lectura. La numeración RF
 | RF-32 | Permitir hasta cuatro usuarios activos: un administrador y tres vendedores. |
 | RF-33 | Exigir contraseñas de al menos ocho caracteres, con renovación cada seis meses. |
 
-**Nota sobre RF-30 y RF-33:** el trabajo presenta la renovación semestral tanto como caducidad programada como política de contraseña mínima. Se conservan ambos enunciados porque aparecen en el apartado original; conceptualmente expresan una misma política y podrían consolidarse en una especificación posterior.
+**Nota sobre RF-30, RF-33 y RNF-09:** el trabajo presenta la renovación semestral como caducidad programada, como parte de la política de contraseña mínima y nuevamente dentro de seguridad no funcional. Se conservan las apariciones porque están en el documento original; conceptualmente describen una misma política y podrían consolidarse en una especificación posterior.
 
 ## 1.7 Reportes e informes
 
