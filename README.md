@@ -77,6 +77,7 @@ Las siguientes imágenes provienen del manual de usuario del proyecto académico
 
 - [Alcance funcional](docs/alcance-funcional.md)
 - [Análisis y modelado](docs/analisis-y-modelado.md)
+- [Modelo de datos y diagrama entidad-relación](docs/modelo-de-datos.md)
 - [Diagramas y pantallas](docs/diagramas-y-pantallas.md)
 - [Diagrama de contexto](diagrams/contexto-sistema.svg)
 - [Actores y funcionalidades](diagrams/actores-funcionalidades.svg)
