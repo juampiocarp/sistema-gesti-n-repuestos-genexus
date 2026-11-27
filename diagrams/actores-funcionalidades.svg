@@ -1,22 +1,29 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="820" viewBox="0 0 1200 820">
-<rect width="1200" height="820" rx="24" fill="#f8fafc"/>
-<text x="600" y="58" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#172554">Actores y funcionalidades documentadas</text>
-<rect x="320" y="100" width="830" height="650" rx="22" fill="#fff" stroke="#94a3b8" stroke-width="2" stroke-dasharray="8 6"/>
-<text x="735" y="138" text-anchor="middle" font-family="Arial" font-size="21" font-weight="700" fill="#334155">Sistema de gestión</text>
-<g font-family="Arial" font-size="18" fill="#0f172a" stroke="#2563eb" stroke-width="2">
-<rect x="390" y="180" width="320" height="72" rx="36" fill="#dbeafe"/><text x="550" y="223" text-anchor="middle" stroke="none">Actualizar catálogo de proveedores</text>
-<rect x="760" y="180" width="320" height="72" rx="36" fill="#dbeafe"/><text x="920" y="223" text-anchor="middle" stroke="none">Actualizar clientes</text>
-<rect x="390" y="300" width="320" height="72" rx="36" fill="#dbeafe"/><text x="550" y="343" text-anchor="middle" stroke="none">Agregar imagen de producto</text>
-<rect x="760" y="300" width="320" height="72" rx="36" fill="#dbeafe"/><text x="920" y="343" text-anchor="middle" stroke="none">Registrar pedido a proveedor</text>
-<rect x="390" y="420" width="320" height="72" rx="36" fill="#e0e7ff"/><text x="550" y="463" text-anchor="middle" stroke="none">Buscar productos</text>
-<rect x="760" y="420" width="320" height="72" rx="36" fill="#e0e7ff"/><text x="920" y="463" text-anchor="middle" stroke="none">Registrar pedidos de clientes</text>
-<rect x="390" y="540" width="320" height="72" rx="36" fill="#e0e7ff"/><text x="550" y="583" text-anchor="middle" stroke="none">Registrar ventas</text>
-<rect x="760" y="540" width="320" height="72" rx="36" fill="#e0e7ff"/><text x="920" y="583" text-anchor="middle" stroke="none">Controlar stock</text>
-</g>
-<g stroke="#64748b" stroke-width="2" fill="none">
-<path d="M210 260 L390 216"/><path d="M210 260 L760 216"/><path d="M210 260 L390 336"/><path d="M210 260 L760 336"/><path d="M210 260 L390 456"/><path d="M210 260 L760 456"/><path d="M210 260 L390 576"/><path d="M210 260 L760 576"/>
-</g>
-<circle cx="150" cy="195" r="26" fill="#fff" stroke="#334155" stroke-width="3"/><path d="M150 221 V310 M110 250 H190 M150 310 L115 360 M150 310 L185 360" stroke="#334155" stroke-width="4" fill="none"/>
-<text x="150" y="400" text-anchor="middle" font-family="Arial" font-size="22" font-weight="700" fill="#0f172a">Vendedor</text>
-<text x="600" y="790" text-anchor="middle" font-family="Arial" font-size="14" fill="#64748b">Resumen visual de funcionalidades mencionadas en el trabajo final; no reemplaza los diagramas originales.</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="920" viewBox="0 0 1200 920">
+<rect width="1200" height="920" rx="24" fill="#f8fafc"/>
+<text x="600" y="58" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#172554">Actores y funcionalidades</text>
+<text x="600" y="92" text-anchor="middle" font-family="Arial" font-size="16" fill="#64748b">Resumen de los diagramas funcionales del trabajo final (págs. 37–40)</text>
+<g font-family="Arial">
+<rect x="65" y="140" width="1070" height="215" rx="20" fill="#fff" stroke="#93c5fd" stroke-width="2"/>
+<rect x="65" y="140" width="250" height="215" rx="20" fill="#dbeafe"/>
+<text x="190" y="245" text-anchor="middle" font-size="26" font-weight="700" fill="#1e3a8a">Vendedor</text>
+<text x="350" y="185" font-size="19" fill="#0f172a">1. Actualizar catálogo de proveedores</text>
+<text x="350" y="220" font-size="19" fill="#0f172a">2. Actualizar clientes</text>
+<text x="350" y="255" font-size="19" fill="#0f172a">3. Agregar imagen del producto al stock</text>
+<text x="350" y="290" font-size="19" fill="#0f172a">4. Registrar pedido a proveedor</text>
+<text x="350" y="325" font-size="19" fill="#0f172a">7–9. Buscar productos, registrar pedidos de clientes y ventas</text>
+<rect x="65" y="385" width="1070" height="250" rx="20" fill="#fff" stroke="#a5b4fc" stroke-width="2"/>
+<rect x="65" y="385" width="250" height="250" rx="20" fill="#e0e7ff"/>
+<text x="190" y="520" text-anchor="middle" font-size="26" font-weight="700" fill="#3730a3">Dueño</text>
+<text x="350" y="435" font-size="19" fill="#0f172a">5. Registrar ingreso de mercadería</text>
+<text x="350" y="475" font-size="19" fill="#0f172a">6. Controlar stock</text>
+<text x="350" y="515" font-size="19" fill="#0f172a">10. Registrar entrada/salida de repuestos</text>
+<text x="350" y="555" font-size="19" fill="#0f172a">11. Registrar pago a proveedores</text>
+<text x="350" y="595" font-size="19" fill="#0f172a">12–13. Consultar ventas en dinero y por producto</text>
+<rect x="65" y="665" width="1070" height="175" rx="20" fill="#fff" stroke="#86efac" stroke-width="2"/>
+<rect x="65" y="665" width="250" height="175" rx="20" fill="#dcfce7"/>
+<text x="190" y="760" text-anchor="middle" font-size="26" font-weight="700" fill="#166534">Proveedor</text>
+<text x="350" y="715" font-size="19" fill="#0f172a">Registrar entrega; el sistema actualiza el stock.</text>
+<text x="350" y="755" font-size="19" fill="#0f172a">Entregar recibo de pago.</text>
+<text x="350" y="795" font-size="19" fill="#0f172a">Generar informes y consultar cuenta corriente de proveedores.</text>
+<text x="600" y="885" text-anchor="middle" font-size="14" fill="#64748b">Resumen visual transcripto de los diagramas originales; no agrega funcionalidades.</text>
+</g></svg>
