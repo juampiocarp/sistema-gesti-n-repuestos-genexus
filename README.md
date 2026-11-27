@@ -49,9 +49,13 @@ El desarrollo fue realizado en equipo de dos integrantes, con responsabilidades 
 
 ![Diagrama de contexto](diagrams/contexto-sistema.svg)
 
+*Fuente editable del mismo diagrama: [diagrama-contexto.mmd](diagrams/diagrama-contexto.mmd).*
+
 ### Actores y funcionalidades
 
 ![Resumen de actores y funcionalidades](diagrams/actores-funcionalidades.svg)
+
+*Fuente editable del mismo diagrama: [funcionalidades-y-actores.mmd](diagrams/funcionalidades-y-actores.mmd).*
 
 ## Capturas de pantalla
 
@@ -79,8 +83,6 @@ Las siguientes imágenes provienen del manual de usuario del proyecto académico
 - [Análisis y modelado](docs/analisis-y-modelado.md)
 - [Modelo de datos y diagrama entidad-relación](docs/modelo-de-datos.md)
 - [Diagramas y pantallas](docs/diagramas-y-pantallas.md)
-- [Diagrama de contexto](diagrams/contexto-sistema.svg)
-- [Actores y funcionalidades](diagrams/actores-funcionalidades.svg)
 - [Notas del portfolio y privacidad](docs/portfolio-notes.md)
 
 ## Metodología de trabajo
