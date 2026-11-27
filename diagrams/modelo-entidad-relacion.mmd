@@ -1,7 +1,7 @@
 erDiagram
     CLIENTES ||--o{ VENTAS : "ClienteID"
     USUARIOS ||--o{ VENTAS : "UsuarioID"
-    VENTAS ||--|{ DETALLE_VENTA : "VentaID"
+    VENTAS ||--o{ DETALLE_VENTA : "VentaID"
     PRODUCTOS ||--o{ DETALLE_VENTA : "ProductoID"
 
     PROVEEDORES ||--o{ PRODUCTOS : "ProveedorID"
@@ -10,7 +10,7 @@ erDiagram
 
     USUARIOS ||--o{ COMPRAS : "UsuarioID"
     PROVEEDORES ||--o{ COMPRAS : "ProveedorID"
-    COMPRAS ||--|{ DETALLE_COMPRAS : "CompraID"
+    COMPRAS ||--o{ DETALLE_COMPRAS : "CompraID"
     PRODUCTOS ||--o{ DETALLE_COMPRAS : "ProductoID"
 
     CLIENTES {
@@ -42,14 +42,14 @@ erDiagram
         ID VentaID FK
         ID ProductoID FK
         numeric Cantidad
-        numeric PrecioTotalVenta
+        sin_especificar PrecioTotalVenta
     }
     PRODUCTOS {
         ID ProductoID PK
         varchar ProductoNombre
         ID ProveedorID FK
         ID CategoriaID FK
-        numeric Stock
+        sin_especificar Stock
         numeric Precio
     }
     CATEGORIAS {
@@ -58,7 +58,7 @@ erDiagram
         varchar Descripcion
     }
     PROVEEDORES {
-        ID ProveedorID PK
+        sin_especificar ProveedorID PK
         varchar ProveedorNombre
         varchar Direccion
         numeric Telefono
