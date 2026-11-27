@@ -53,6 +53,26 @@ El desarrollo fue realizado en equipo de dos integrantes, con responsabilidades 
 
 ![Resumen de actores y funcionalidades](diagrams/actores-funcionalidades.svg)
 
+## Capturas de pantalla
+
+Las siguientes imágenes provienen del manual de usuario del proyecto académico. Son capturas de la documentación, no una demostración en vivo del sistema.
+
+### Inicio de sesión
+
+![Pantalla de inicio de sesión](capturas-para-github/01-login.png)
+
+### Registro de compras
+
+![Formulario de registro de compras](capturas-para-github/02-registro-compra.png)
+
+### Historial de ventas
+
+![Listado de ventas](capturas-para-github/03-historial-ventas.png)
+
+### Registro de ventas
+
+![Formulario de registro de ventas](capturas-para-github/04-registro-venta.png)
+
 ## Documentación del proyecto
 
 - [Alcance funcional](docs/alcance-funcional.md)
