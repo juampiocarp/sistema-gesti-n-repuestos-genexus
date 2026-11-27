@@ -43,6 +43,12 @@ Mi principal participación estuvo orientada al análisis funcional y al diseño
 
 El desarrollo fue realizado en equipo de dos integrantes, con responsabilidades compartidas y diferentes niveles de participación en las tareas de análisis y programación.
 
+## Documentación del proyecto
+
+- [Alcance funcional](docs/alcance-funcional.md)
+- [Análisis y modelado](docs/analisis-y-modelado.md)
+- [Notas del portfolio y privacidad](docs/portfolio-notes.md)
+
 ## Metodología de trabajo
 
 Se utilizó un enfoque de desarrollo iterativo e incremental, organizando el trabajo en etapas de relevamiento, análisis, diseño, implementación, pruebas y validación.
@@ -56,4 +62,4 @@ Se utilizó un enfoque de desarrollo iterativo e incremental, organizando el tra
 
 ---
 
-Este repositorio presenta una descripción del proyecto académico. No incluye código fuente ni datos privados del comercio.
+Este repositorio presenta una descripción y documentación seleccionada del proyecto académico. No incluye código fuente ni datos privados del comercio.
