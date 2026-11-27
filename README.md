@@ -90,14 +90,15 @@ Las siguientes imágenes provienen del manual de usuario del proyecto académico
 
 ## Metodología de trabajo
 
-Se utilizó un enfoque de desarrollo iterativo e incremental, organizando el trabajo en etapas de relevamiento, análisis, diseño, implementación, pruebas y validación.
+El proyecto se abordó con una metodología iterativa e incremental. El trabajo contempló relevamiento de requerimientos, análisis y documentación, diseño e implementación, pruebas y validación, y entrega con documentación final.
 
 ## Contexto académico
 
 - **Institución:** Instituto Superior Brigadier López
 - **Carrera:** Tecnicatura Superior en Desarrollo de Software
 - **Proyecto:** Trabajo Final de Carrera
-- **Período:** 2024–2025
+- **Fecha del trabajo final:** 2025
+- **Duración documentada:** un año y medio
 
 ---
 
