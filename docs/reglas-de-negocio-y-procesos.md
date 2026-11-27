@@ -25,7 +25,7 @@ El sistema contempla asociar una imagen a un producto. El manual indica que, al 
 **Fuente:** páginas 24 y 29; manual, páginas 65–66.
 
 ### RN-03 — Alta de producto y datos previos
-El manual indica que el proveedor y la categoría deben estar registrados previamente para seleccionarlos al cargar un nuevo producto. También indica que, si el stock inicial es inexistente, debe quedar en cero.
+El manual indica expresamente que la categoría debe estar registrada previamente. También señala que, si el stock inicial es inexistente, debe quedar en cero. El producto se vincula con un proveedor, pero ese pasaje no detalla de forma explícita una condición de alta previa del proveedor.
 
 **Fuente:** manual, páginas 65–66.
 
@@ -99,7 +99,7 @@ Los procesos siguientes ordenan la información que aparece en módulos y manual
 
 1. Ingresar a la opción de alta de producto.
 2. Cargar nombre del producto.
-3. Seleccionar el proveedor y la categoría, que deben estar registrados previamente.
+3. Ingresar el ID del proveedor y el ID de la categoría. El manual aclara que la categoría debe estar registrada previamente; no especifica de forma expresa una validación equivalente para el proveedor.
 4. Definir el stock inicial; el manual indica cero cuando no existe stock inicial.
 5. Cargar el precio de venta.
 6. Agregar una imagen si se desea.
