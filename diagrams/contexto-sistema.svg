@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="650" viewBox="0 0 1100 650">
+<defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#64748b"/></marker></defs>
+<rect width="1100" height="650" rx="24" fill="#f8fafc"/>
+<text x="550" y="58" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#172554">Diagrama de contexto</text>
+<rect x="70" y="250" width="190" height="110" rx="18" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+<text x="165" y="295" text-anchor="middle" font-family="Arial" font-size="24" fill="#0f172a">Proveedor</text>
+<rect x="420" y="210" width="270" height="180" rx="22" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+<text x="555" y="285" text-anchor="middle" font-family="Arial" font-size="26" font-weight="700" fill="#1e3a8a">Sistema de gestión</text>
+<text x="555" y="322" text-anchor="middle" font-family="Arial" font-size="17" fill="#1e40af">Casa de repuestos</text>
+<rect x="840" y="250" width="190" height="110" rx="18" fill="#e2e8f0" stroke="#475569" stroke-width="2"/>
+<text x="935" y="295" text-anchor="middle" font-family="Arial" font-size="24" fill="#0f172a">Gerencia</text>
+<path d="M260 275 H420" stroke="#64748b" stroke-width="3" marker-end="url(#a)"/>
+<text x="340" y="255" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">Entrega / información</text>
+<path d="M420 345 H260" stroke="#64748b" stroke-width="3" marker-end="url(#a)"/>
+<text x="340" y="378" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">Registro / pagos</text>
+<path d="M690 275 H840" stroke="#64748b" stroke-width="3" marker-end="url(#a)"/>
+<text x="765" y="255" text-anchor="middle" font-family="Arial" font-size="16" fill="#334155">Informes</text>
+<rect x="340" y="470" width="430" height="100" rx="18" fill="#fff" stroke="#94a3b8" stroke-width="2"/>
+<text x="555" y="510" text-anchor="middle" font-family="Arial" font-size="20" font-weight="700" fill="#0f172a">Alcance de la representación</text>
+<text x="555" y="540" text-anchor="middle" font-family="Arial" font-size="16" fill="#475569">Vista simplificada de los actores externos y el sistema.</text>
+<text x="550" y="620" text-anchor="middle" font-family="Arial" font-size="14" fill="#64748b">Representación elaborada para el portfolio a partir de la documentación académica.</text>
+</svg>
