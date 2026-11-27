@@ -1,5 +1,3 @@
-# sistema-gestion-repuestos-genexus
-Sistema de gestión comercial para una casa de repuestos automotores, desarrollado con GeneXus como proyecto final de carrera.
 # Sistema de Gestión para Casa de Repuestos
 
 Sistema de gestión administrativa y comercial desarrollado como Proyecto Final de la Tecnicatura Superior en Desarrollo de Software del Instituto Superior Brigadier López.
@@ -27,14 +25,14 @@ El alcance funcional documentado comprende los siguientes módulos:
 
 ## Tecnologías y herramientas
 
-- GeneXus: entorno de desarrollo utilizado para los componentes de front-end y back-end.
-- Base de datos relacional.
-- Herramientas de modelado: diagramas de contexto, casos de uso y entidad-relación.
-- Microsoft Word para la documentación del proyecto.
+- **GeneXus:** entorno utilizado para el desarrollo de componentes de front-end y back-end.
+- **Base de datos relacional:** estructura organizada para productos, clientes, proveedores, ventas y otras operaciones.
+- **Herramientas de modelado:** diagramas de contexto, casos de uso y entidad-relación.
+- **Microsoft Word:** documentación del proyecto.
 
 ## Mi participación
 
-Mi principal participación estuvo orientada al análisis funcional y diseño de la solución.
+Mi principal participación estuvo orientada al análisis funcional y al diseño de la solución:
 
 - Realicé entrevistas y relevamiento de necesidades con el propietario del comercio.
 - Identifiqué problemas operativos y definí requerimientos funcionales y no funcionales.
@@ -51,11 +49,11 @@ Se utilizó un enfoque de desarrollo iterativo e incremental, organizando el tra
 
 ## Contexto académico
 
-**Institución:** Instituto Superior Brigadier López  
-**Carrera:** Tecnicatura Superior en Desarrollo de Software  
-**Proyecto:** Trabajo Final de Carrera  
-**Período:** 2024–2025
+- **Institución:** Instituto Superior Brigadier López
+- **Carrera:** Tecnicatura Superior en Desarrollo de Software
+- **Proyecto:** Trabajo Final de Carrera
+- **Período:** 2024–2025
 
 ---
 
-Este repositorio presenta la documentación descriptiva del proyecto. No incluye código fuente ni datos privados del comercio.
+Este repositorio presenta una descripción del proyecto académico. No incluye código fuente ni datos privados del comercio.
