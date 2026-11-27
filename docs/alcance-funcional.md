@@ -17,7 +17,9 @@ El relevamiento incluyó una entrevista presencial con el responsable del comerc
 - Diferenciar permisos según el rol de usuario.
 - Consultar información de gestión, como stock y movimientos.
 
-## Módulos descriptos en el manual
+## Módulos y funcionalidades documentadas
+
+La siguiente síntesis integra la descripción de módulos del trabajo final (páginas 24–28) y el manual de usuario (páginas 61–74).
 
 | Módulo | Alcance documentado |
 |---|---|
