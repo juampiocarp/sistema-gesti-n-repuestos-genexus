@@ -1,28 +1,35 @@
 # Diagramas y pantallas del sistema
 
-Esta sección reúne representaciones visuales elaboradas a partir del trabajo final y su manual de usuario.
+Esta sección presenta **dos diagramas distintos**. Cada uno tiene una versión visual SVG y un archivo fuente Mermaid editable. Los dos formatos dentro de cada pareja representan el mismo diagrama; no son diagramas adicionales.
 
-## Diagrama de contexto
+## 1. Diagrama de contexto — página 37
 
-El diagrama de la página 37 identifica al actor **Proveedores** y las interacciones:
+Identifica al actor **Proveedores** y sus interacciones con el sistema:
 
 - Registrar entrega.
 - Actualizar stock como comportamiento incluido en el registro de entrega.
 - Entregar recibo de pago.
 - Generar informes.
-- Cuenta corriente de proveedores.
+- Consultar la cuenta corriente de proveedores.
 
-- [Ver diagrama de contexto (SVG)](../diagrams/contexto-sistema.svg)
-- [Ver fuente editable Mermaid](../diagrams/diagrama-contexto.mmd)
+![Diagrama de contexto](../diagrams/contexto-sistema.svg)
 
-## Actores y funcionalidades
+- [Fuente editable Mermaid del mismo diagrama](../diagrams/diagrama-contexto.mmd)
 
-Las páginas 38 a 40 documentan funciones asociadas a los actores Vendedor y Dueño, además de las interacciones del proveedor de la página 37.
+## 2. Actores y funcionalidades — páginas 38 a 41
 
-- [Ver resumen visual de actores y funcionalidades (SVG)](../diagrams/actores-funcionalidades.svg)
-- [Ver fuente editable Mermaid](../diagrams/funcionalidades-y-actores.mmd)
+Resume los 15 casos de uso documentados para dos actores:
 
-## Interfaces documentadas
+- **Vendedor:** funcionalidades 1, 2, 3, 4, 7, 8 y 9.
+- **Dueño:** funcionalidades 5, 6, 10, 11, 12, 13, 14 y 15.
+
+El actor Proveedores y sus interacciones se mantienen en el diagrama de contexto de la página 37, sin duplicarlos aquí.
+
+![Actores y funcionalidades](../diagrams/actores-funcionalidades.svg)
+
+- [Fuente editable Mermaid del mismo diagrama](../diagrams/funcionalidades-y-actores.mmd)
+
+## 3. Interfaces documentadas
 
 Las siguientes capturas se extrajeron del manual de usuario:
 
@@ -35,4 +42,4 @@ También se pueden consultar todas juntas en el [README de capturas](../screensh
 
 ## Nota sobre el material
 
-Los SVG son representaciones visuales transcritas para facilitar la lectura en el portfolio. No son exportaciones originales de GeneXus ni reemplazan los diagramas del documento académico. Las capturas de interfaz provienen del manual incluido en el trabajo final.
+Los SVG son representaciones visuales transcritas para facilitar la lectura en el portfolio. No son exportaciones originales de GeneXus ni reemplazan los diagramas del documento académico. Los archivos Mermaid son las fuentes editables de esos mismos diagramas. Las capturas de interfaz provienen del manual incluido en el trabajo final.
